@@ -1,0 +1,910 @@
+  #container{
+         height: 100%;
+         display: grid;
+         grid-template-rows: 200px 1000px 1400px 1500px 1500px 1300px 200px;
+         grid-template-columns: 100%;
+       box-sizing: border-box;
+     } 
+    
+     #nav{
+         grid-row: 1/2;
+         grid-column: 100%;
+         box-sizing: border-box;
+         text-align: center;
+         position: fixed;
+         width: 100%;
+         height: 200px;
+         align-items: center;
+         line-height: 30px;
+     }
+    
+       #nav a{
+         text-decoration: none;
+           margin-right: 50px;
+           font-family: sans-serif;
+          line-height: 30px;
+           color: black;
+         
+     }
+    
+    #nav a:hover{
+    color: blue;
+}
+
+
+      #nav img{
+         text-decoration: none;
+         margin-right: 50px;
+          height: 120px;
+          width: 120px;
+     }
+      #second{
+        grid-row: 2/3;
+        grid-column: auto;
+       color: white;
+      position:fixed;
+      top: 150px;
+        width: 100%;
+        height: 1000px;
+        text-align: center;
+        background-image: url(../html/slider/slider.jpg);
+        box-sizing: border-box;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+     }
+   
+    
+    
+     #third{
+          grid-row: 3/4;
+        grid-column: auto;
+        position: relative;
+        top: 1400px;
+        width: 100%;
+         height: 1500px;
+       background-image: url(../html/slider/tech.jpg);
+          box-sizing: border-box;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+         
+     }
+     
+     #third #do{
+         color: white;
+         text-align: center;
+         font-size: 90px;
+        font-family: "Agency FB", arial;
+         margin-top: 2px;
+         font-stretch: extra-condensed;
+         line-height: 115.684px;
+     }
+     #third p{
+         font-size: 20px;
+        font-family: "Agency FB", arial;
+         color: white;
+         text-align: center;
+         margin-top: -70px;
+        
+         
+     }
+       #fourth{
+            grid-row: 4/5;
+           grid-column: auto;
+           position:absolute;
+            width: 100%;
+         background-image: url(../html/slider/apps.jpg);
+          background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+             background-size: 100% 100%;
+           top: 4000px;
+           height: 1000px;
+            box-sizing: border-box;
+          
+     }
+       #fourth #small{
+         font-size: 25px;
+            font-family: "Agency FB", arial;
+         color: white;
+         text-align: center;
+         margin-top: -30px;
+           
+         
+     }
+      #fourth p{
+         color: white;
+        font-family: "Agency FB", arial;
+         font-stretch: extra-condensed;
+          text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: "Agency FB", arial;
+         font-size: 65px;
+        line-height: 80px;
+          margin-top: 40px;
+          
+         
+     }
+       
+       
+           
+         
+     
+     
+       
+     #fifth{
+            grid-row: 5/6;
+         grid-column: auto;
+          position: absolute;
+          background-color: white;
+          width: 100%;
+           top: 5000px;
+           height: 1500px;
+          box-sizing: border-box;
+     }
+     
+        #fifth p{
+    text-align: center;
+    color: black;
+    font-family: "Agency FB", arial;
+    font-size: 62px;
+    line-height: 69.213px;
+}
+     
+       #sixth{
+           grid-row: 6/7;
+           grid-column: auto;
+           position: absolute;
+             width: 100%;
+           top: 6000px;
+           height: 1300px;
+         background-image: url(../html/slider/contact.jpg);
+            box-sizing: border-box;
+            background-repeat: no-repeat;
+          background-size: 100% 100%;
+        
+     }
+     
+     #sixth h1{
+         text-align: center;
+    color: white;
+    font-family: "Agency FB", arial;
+    font-size: 100px;
+    margin-top: 10px;  
+     } 
+     
+       
+        #sixth p{
+    text-align: center;
+    color: white;
+    font-family: "Agency FB", arial;
+    font-size: 30px;
+    margin-top: -10px;  
+     } 
+     
+       #footer{
+           grid-row: 7/8;
+           grid-column: auto;
+           height: 200px;
+          position: absolute;
+          background-color: #747a87;
+           top: 7300px;
+           width: 100%;
+            box-sizing: border-box;
+    
+     }
+     
+       #second h1{
+         font-size: 120px;
+           font-family: sans-serif;
+        transition: all .2s;
+         transition-property: all;
+        transition-duration: 0.2s;
+         transition-timing-function: ease;
+         transition-delay: 0s;
+     }
+     #second p{
+         font-size: 25px;
+         font-family: sans-serif;
+         transition: all .2s;
+         transition-property: all;
+         transition-duration: 0.2s;
+        transition-timing-function: ease;
+         transition-delay: 0s;
+          letter-spacing: 2px; 
+     }
+    
+     button{
+         height: 55px;
+         width: 300px;
+         border-radius: 23px;
+         background-color: #339bc2;
+         text-align: center;
+         text-transform: uppercase;
+         font-family:sans-serif;
+         letter-spacing: 2px; 
+          font-size: 17px;
+         font-weight: 400;
+         line-height: 17px;
+         cursor: pointer;
+         color: white;
+        
+     }
+
+
+
+ 
+     #box{
+        height: 800px;
+     box-sizing: border-box;
+        
+         
+     }
+     #top{
+         display: flex;
+         float: row;
+         height: 350px;
+         width: 100%;
+          box-sizing: border-box;
+     }
+    
+    
+     #bottom{
+          display: flex;
+         float: row;
+         height: 350px;
+        
+         width: 100%;
+         margin-top: 50px;
+     }
+    
+    
+    .flip-box {
+  background-color: transparent;
+  width: 450px;
+  height: 300px;
+ 
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+        margin: 50px 75px 0px 0px;
+         box-sizing: border-box;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+     box-sizing: border-box;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+     box-sizing: border-box;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+     #bottom .flip-box{
+         margin-top: 0px;
+     }   
+     #box1{
+         margin-left: 150px;
+        
+     } 
+    
+     #initial{
+         margin-left: 150px;
+     }
+    
+     .flip-box p{
+         text-align: center;
+         padding: 150px 50px 100px 50px;
+        font-family: "Agency FB";
+        font-size:18px;
+         line-height: 30px;
+     } 
+    
+     .app{
+           margin-left: 700px;
+          height: 55px;
+         width: 400px;
+         border-radius: 25px;
+         background-color: white;
+         text-align: center;
+         color: black;
+         margin-top: 10px;
+          margin-right: auto;
+    margin-left: auto;
+    display: block;
+        
+     }
+
+.app:hover{
+    background-color: blue;
+    color: white;
+   
+}
+     .app a{
+         text-decoration: none; 
+         color: black;
+          font-size: 20px;
+         font-style: normal;
+       
+     }
+     #contact{
+           margin-left: 750px;
+          height: 55px;
+         width: 300px;
+         border-radius: 25px;
+         background-color: white;
+         text-align: center;
+        cursor: pointer;
+          box-sizing: border-box;
+     }
+       #contact a{
+         text-decoration: none; 
+         color: black;
+          font-size: 20px;
+         font-style: normal;
+           letter-spacing: 2px;
+           text-transform: uppercase;
+       
+     }
+     
+     small{
+        color: white;
+         font-family: "Agency FB", arial;
+         font-size: 15px;
+         line-height: 150px;
+         margin-left: 100px;
+         float: left;
+     }
+     
+     .front{
+         font-size: 65px;
+         font-family: sans-serif;
+         color: white;
+        
+     }
+     
+    
+
+
+
+#projects{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 300px 1000px 1500px 1300px 200px;
+     box-sizing: border-box;
+}
+ 
+#project1{
+      grid-row: 2/3;
+        grid-column: auto;
+       color: white;
+      position: relative;
+      width: 100%;
+      height: 1000px;
+     text-align: center;
+     background-image: url(../html/slider/projects.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -110px;
+     box-sizing: border-box;
+    
+}
+   #project1 h2{
+         font-size: 130px;
+        font-family: sans-serif;
+       padding-top: 200px;
+     }
+
+     #project1 p{
+         font-size: 25px;
+          font-family: sans-serif;
+         margin-top: -70px;
+     }
+
+   #projectnav{
+         grid-row: 1/2;
+         grid-column: 100%;
+         background-color: white;
+         text-align: center;
+         position: fixed;
+         width: 100%;
+         height: 200px;
+        box-sizing: border-box;
+     }
+
+#projectnav a:hover{
+    color: blue;
+}
+ #projectnav a{
+         text-decoration: none;
+         margin-right: 50px;
+     font-family: sans-serif;
+     color: black;
+     }
+    
+    
+      #projectnav img{
+         text-decoration: none;
+         margin-right: 50px;
+          height: 120px;
+          width: 120px;
+}
+  #project1button{
+         height: 55px;
+         width: 250px;
+         border-radius: 20px;
+         background-color:#03a9f4;
+         text-align: center;
+      color: white;
+      border: none;
+      font-size: 18px;
+         
+     }
+
+
+#project2 h3{
+    margin-top: 200px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-size: 80px;
+    line-height: 69.213px;
+}
+
+#project2 p{
+    font-family: "Agency FB", arial; 
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+  
+       #project3{
+           grid-row: 4/5;
+           position: relative;
+             width: 100%;
+          margin-top: 200px;
+           height: 1300px;
+         background-image: url(../html/slider/contact.jpg);
+            box-sizing: border-box;
+            background-repeat: no-repeat;
+          background-size: 100% 100%;
+        
+     }
+
+    #divide{
+    margin-left: 50px;
+}
+
+   #project2 img{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+  #project3 h1{
+    text-align: center;
+    color: white;
+    font-family: "Agency FB", arial;
+    font-size: 100px;
+    margin-top: 10px;  
+     } 
+    
+#project2{
+    grid-row: 3/4;
+    height: 1200px;
+    margin-top: -120px;
+     box-sizing: border-box;
+}
+       
+        #project3 p{
+    text-align: center;
+    color: white;
+    font-family: "Agency FB", arial;
+    font-size: 30px;
+    margin-top: -10px;  
+     }
+
+ #project4{
+           grid-row: 7/8;
+           grid-column: auto;
+           height: 200px;
+          position: relative;
+          background-color: #747a87;
+           width: 100%;
+         box-sizing: border-box;
+     }
+
+
+#shops{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 200px 2400px 200px;
+    grid-template-columns: auto;
+     box-sizing: border-box;
+}
+ 
+   #shopnav{
+         grid-row: 1/2;
+         grid-column: 100%;
+         background-color:#747a87;
+         text-align: center;
+         position: fixed;
+         width: 100%;
+         height: 200px;
+       align-items: center;
+        box-sizing: border-box;
+       
+     }
+ #shopnav a{
+    text-decoration: none;
+    margin-right: 50px;
+     font-family: sans-serif;
+     color: white;
+     height: 84px;
+     }
+    
+#shopnav a:hover{
+    color: blue;
+}
+    
+      #shopnav img{
+         text-decoration: none;
+         margin-right: 50px;
+          height: 120px;
+          width: 120px;
+        line-height: 30px;
+          align-items: center;
+}
+
+#shop1{
+    height: 2400px;
+    width: 100%;
+    grid-row: 2/3;
+    background-color: white;
+    margin-top: -80px;
+     box-sizing: border-box;
+}
+
+
+
+
+#product1{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    margin-top: 70px;
+     box-sizing: border-box;
+}
+
+#product2{
+    height: 30%;
+    width: 100%;
+   display: flex;
+    background-color:white;
+    margin-top: -70px;
+     box-sizing: border-box;
+   
+}
+#product3{
+    height: 30%;
+    width: 100%;
+  display: flex;
+    background-color: white;
+     box-sizing: border-box;
+   
+}
+
+.shirt{
+    width: 500px;;
+    height: auto;
+    background-color: white;
+    margin-top: 30px;
+    border-style: none;
+    vertical-align: top;
+    max-width: 100%;
+    color: #2176ff;
+    text-align: center;
+    float: row;
+     box-sizing: border-box;
+}
+   
+
+#shopfooter{
+ 
+           grid-row: 3/4;
+           grid-column: auto;
+           height: 200px;
+          position: relative;
+          background-color: #747a87;
+           width: 100%;
+         box-sizing: border-box;
+     
+}
+
+ #contactnav{
+         grid-row: 1/2;
+         grid-column: 100%;
+         background-color:white;
+         text-align: center;
+         position: fixed;
+         width: 100%;
+         height: 200px;
+      box-sizing: border-box;
+     }
+#contactnav a:hover{
+    color: blue;
+}
+ #contactnav a{
+         text-decoration: none;
+         margin-right: 50px;
+     font-family: sans-serif;
+     }
+    
+    
+      #contactnav img{
+         text-decoration: none;
+         margin-right: 50px;
+          height: 120px;
+          width: 120px;
+}
+#contacts{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 200px 700px 1500px 200px;
+    grid-template-columns: auto;
+     box-sizing: border-box;
+}
+  #contact1{
+        grid-row: 2/3;
+        grid-column: auto;
+       color: white;
+      position: relative;
+      width: 100%;
+    height: 700px;
+    text-align: center;
+    background-image: url(../html/slider/tech.jpg);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size:cover;
+     }
+   
+   #contact1 h1{
+        font-size: 60px;
+       font-family: sans-serif;
+       padding-top: 150px;
+       
+     }
+     #contact1 p{
+         font-size: 25px;
+          font-family: "Agency FB", arial;
+         margin-top: 100px;
+     }
+#contact2{
+      
+           grid-row: 3/4;
+           width: 100%;
+           position: relative;
+           height: 1500px;
+         background-image: url(../html/slider/contact.jpg);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        
+     }
+     
+ #contact2 h1{
+    text-align: center;
+    color: white;
+    font-family: "Agency FB", arial;
+    font-size: 100px;
+    margin-top: 10px;  
+     } 
+     
+       
+        #contact2 p{
+    text-align: center;
+    color: white;
+    font-family: "Agency FB";
+    font-size: 18px;
+    margin-top: -20px;  
+ letter-spacing: 2px;
+     } 
+#contact3{
+ 
+           grid-row: 4/5;
+           grid-column: auto;
+           height: 200px;
+          position: relative;
+          background-color: black;
+           width: 100%;
+         box-sizing: border-box;
+     
+}
+#green{
+    background-color: #3fc7b0;
+}
+#green1{
+    background-color: #3fc7b0;
+}
+#orange{
+    background-color: #f67a68;
+}
+#orange1{
+    background-color: #f67a68;
+}
+#blue{
+    background-color:#339bc2;
+}
+#blue1{
+    background-color:#339bc2;
+}
+#red{
+    background-color: #c83f43;
+}
+#red1{
+    background-color: #c83f43;
+}
+#purple{
+    background-color: #a96eb7;
+}
+#purple1{
+    background-color: #a96eb7;
+}
+#brown{
+    background-color:  #be8864;
+}
+#brown1{
+    background-color:  #be8864;
+}
+
+#cart{
+   height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 150px 300px 200px;
+    grid-template-columns: auto; 
+     box-sizing: border-box;
+}
+
+
+   #cartnav{
+         grid-row: 1/2;
+         grid-column: 100%;
+         background-color: #747a87;
+         text-align: center;
+         position: relative;
+         width: 100%;
+         height: 150px;
+        box-sizing: border-box;
+      
+     }
+
+ #cartnav a{
+      text-decoration: none;
+      margin-right: 50px;
+      color: white;
+     font-family: sans-serif;
+    margin-top: -40px;
+     }
+    
+#cartnav a:hover{
+    color: blue;
+}
+      #cartnav img{
+         text-decoration: none;
+         margin-right: 50px;
+          height: 120px;
+          width: 120px;
+          padding-top: 10px;
+}  
+
+#cart1{
+    grid-row: 2/3;
+    height: 200px;
+    background-color: white;
+    width: 100%;
+     box-sizing: border-box;
+}
+#cart2{
+            grid-row: 3/4;
+           grid-column: auto;
+           height: 150px;
+          position: relative;
+          background-color: #747a87;
+           width: 100%;
+     box-sizing: border-box;
+}
+
+#but{
+        
+          height: 55px;
+         width: 300px;
+         border-radius: 25px;
+         background-color: white;
+         text-align: center;
+         color: black;
+         margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+        
+}
+
+#but:hover{
+    background-color: blue;
+    color: white;
+}
+.fa:hover{
+    color: white;
+}
+
+#icons{
+    display: flex;
+    float: row;
+}
+
+.icon h4{
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-left: 0px;
+     color: white;
+}
+
+#button:hover{
+    background-color: blue;
+    color: white;
+}
+
+#button{
+    margin-top: 150px;  margin-left: 750px;  background-color: white; color: black; display: block; margin-right: auto; margin-left: auto;
+}
+.icon{
+    width: 100px; height: 100px; border:1px; background-color: white; margin-left: 500px; margin-top: 100px; border-radius: 75%; margin-left: 350px;
+     box-sizing: border-box; display: block;
+}
+#logo{
+     width: 50px; height: 50px; border:1px; background-color: white;  margin-top: 50px; border-radius: 75%; float:right; margin-right: 100px;  box-sizing: border-box;display: block;margin-left: auto; margin-right: auto;
+}
+
+#logo1{
+   float: right;  width: 50px; height: 50px; border:1px; background-color: white; margin-left: 700px; margin-top: 50px; border-radius: 75%; margin-right: 10px;
+     box-sizing: border-box; display: block;margin-left: auto; margin-right: auto;
+}
+.shirt img{
+    margin-left: opx;
+    height: 400px;
+    width: 350px;
+}
+.shirt{
+   box-sizing: border-box;
+    width: 25%;
+}
