@@ -518,7 +518,7 @@
     
 #project2{
     grid-row: 3/4;
-    height: 1200px;
+    height: 1400px;
     margin-top: -120px;
      box-sizing: border-box;
 }
@@ -911,4 +911,8 @@
 .pic{
     display: flex;
     float: left;
+    box-sizing: border-box;
+}
+.pic img{
+    width: 500px;
 }
