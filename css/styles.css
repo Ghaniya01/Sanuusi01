@@ -908,3 +908,7 @@
    box-sizing: border-box;
     width: 25%;
 }
+.pic{
+    display: flex;
+    float: left;
+}
